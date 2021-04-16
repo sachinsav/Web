@@ -1,0 +1,19 @@
+.back{
+    background-color: darkgray;
+    display: flex;
+    height: 50vw;
+    flex-wrap: wrap;
+    width:70vw;
+    justify-content: start;
+    align-content: center;
+    
+}
+
+.item{
+    height: 10vw;
+    width:10vw;
+    border: solid black 3px;
+    background-color: brown;
+    margin: 3px;
+    text-align: center;
+}
