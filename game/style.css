@@ -1,0 +1,42 @@
+.area{
+    height: 600px;
+    width: 600px;
+    background-color: antiquewhite;
+
+}
+.item{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+.pl{
+    background-color:green;
+    transform: translateY(250px);
+    animation: planim 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+.area:active .pl{
+    animation-play-state: running;
+}
+.pl+.enemy{
+    animation-timing-function: ease-in;
+}
+.enemy {
+    background-color: brown;
+    margin-left: 100px;
+    animation: enemyanim 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes planim{
+    50% {
+        transform: translate(550px,250px);
+    }
+}
+@keyframes enemyanim {
+    50% {
+        transform: translateY(550px);
+    }
+}

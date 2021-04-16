@@ -1,0 +1,84 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    margin: 30px;
+    padding: 30px;
+}
+.one{
+    transform: rotateX(120deg) rotateY(20deg) rotateZ(45deg);
+}
+.two{
+    transform: scale(1.2,0.5);
+}
+.three{
+    transform:translateX(60px) rotate(45deg) translateY(20px)
+}
+.four{
+    transform: skew(30deg,30deg);
+}
+
+ol ul{
+    display: none;
+}
+ol>li:hover > ul{
+    display: block;
+}
+.btn{
+    background-color: brown;
+    width: 200px;
+    font-size: 30pt;
+    height: 100px;
+    padding: 50px;
+    margin:100px;
+    box-shadow: grey 10px 10px 10px;
+    transition: 0.4s;
+    
+}
+.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: grey 20px 20px 20px;
+    transition:0.3s;
+}
+.btn:active{
+    transform: translate(5px,5px);
+    box-shadow: grey 5px 5px 3px;
+    transition:0.2s;
+    
+}
+
+#div4{
+    height: 600px;
+    width: 800px;
+    background-color: pink;
+}
+.item{
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    height:30px;
+    animation:bounce 4s;
+    animation-iteration-count: infinite;
+}
+#div4 .one1{
+    animation-timing-function: ease-in;
+}
+#div4 .two2{
+    animation-timing-function: ease-out;
+}
+#div4 .three3{
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+    0% {
+
+    }
+    50% {
+        transform: translateY(500px);
+    }
+    100% {
+
+    }
+}
