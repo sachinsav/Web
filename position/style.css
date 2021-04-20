@@ -1,0 +1,88 @@
+.static{
+    position: static;
+}
+.static > div{
+    position: static;
+    background-color: brown;
+    height: 50px;
+    border:2px solid black;
+    margin:2px;
+    
+}
+.static > .it3{
+ left:200px;
+ top:200px;
+}
+
+.absolute{
+    position: static;
+    transform: translate(0,0);
+
+}
+.absolute > div{
+    background-color: brown;
+    height: 50px;
+    border:2px solid black;
+    margin:2px;
+    
+}
+.absolute > .it3{
+ position: absolute;
+ width:100px;
+ left:50%;
+ top:200px;
+}
+
+
+.fixed{
+    position: static;
+    /* transform: translate(0,0); */
+}
+.fixed > div{
+    position: fixed;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    top:0px;
+    border:2px solid black;
+    margin:2px;
+    
+}
+.fixed > .it3{
+ position: fixed;
+ width:100px;
+ height: 100px;
+ left:50%;
+ top:0px;
+}
+
+
+
+
+.relative{
+    position: relative;
+
+}
+.relative > div{
+    position: relative;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    left:100px;
+    border:2px solid black;
+    margin:2px;
+    
+}
+.relative > .it3{
+ position: relative;
+ width:100px;
+ left:50%;
+ top:0px;
+}
+
+
+
+.sticky{
+    position: sticky;
+    bottom:0px;
+}

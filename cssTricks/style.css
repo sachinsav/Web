@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 20%;
+  justify-content: center;
+}
+.circle {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 10px white, 0 0 0 20px aqua, 0 0 0 30px white,
+    0 0 0 40px aqua;
+}
+.triangle {
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  margin-right: 200px;
+}
+
+.triangle2 {
+  position: absolute;
+  background-color: transparent;
+  height: 50px;
+  width: 80px;
+  margin-right: 235px;
+  border: 65px solid transparent;
+  border-right-color: aqua;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: aqua;
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  margin-right: 190px;
+}

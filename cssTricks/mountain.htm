@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color:#293462;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          margin-top: 20%;
+        }
+        .circle{
+          position:absolute;
+          background-color:#FFF1C1;
+          height:200px;
+          width:200px;
+          border-radius:100%;
+        
+        }
+      .circle-outer{
+          position:absolute;
+          background-color:transparent;
+          height:200px;
+          width:200px;
+          border-radius:100%;
+            box-shadow:0 0 0 500px #293462;
+        
+        }
+        .small{
+          position:absolute;
+             background:#FE5F55;
+          width:50px;
+          height:50px;
+          margin-right:140px;
+          margin-top:130px;
+          transform:rotate(45deg);
+          
+        }
+        .big {
+          position:absolute;
+          width: 200px;
+          height: 200px;
+          background: #FE5F55;
+          margin-left:80px;
+          margin-top:200px;
+          transform:rotate(45deg);
+        }
+      </style>
+</head>
+<body>
+<div class="circle"></div>
+<div class="small"></div>
+<div class="big"></div>
+<div class="circle-outer"></div>
+</body>
+</html>

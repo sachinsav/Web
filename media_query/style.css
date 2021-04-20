@@ -1,0 +1,35 @@
+.first{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.item{
+    background-color: bisque;
+    height: 200px;
+    width: 400px;
+    margin:5px;
+    border: solid black 2px;
+}
+/* desktop first approach */
+@media (max-width:1200px){
+    .first{
+    background-color: brown;
+    }
+}
+@media (max-width:900px){
+    .first{
+    background-color: yellow;
+    }
+}
+@media (max-width:600px){
+    .first{
+    background-color: red;
+    }
+}

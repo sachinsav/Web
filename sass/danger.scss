@@ -1,0 +1,13 @@
+@import "variables";
+
+@mixin btn{
+    background-color: $pr1;
+    color:$pr1;
+    padding: 20px;
+}
+.danger{
+    h2{
+        @include btn;
+        color:$pr2;
+    }
+}

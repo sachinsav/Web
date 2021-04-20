@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterFly</title>
+    
+<style>
+    body{
+      background:#998235;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    }
+    .body {
+      width: 150px;
+      height: 75px;
+      margin-top:75px;
+      background: #EFF33C;
+      border-radius:100px;
+      overflow:hidden;
+    }
+    .wing-left{
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      margin-top:-75px;
+      margin-left:-80px;
+      background: #FFFFFF;
+      border-radius:100px 100px 0 100px;
+    }
+    .wing-right{
+      position:absolute;
+      width: 75px;
+      height: 75px;
+      margin-top:-75px;
+      margin-left:70px;
+      background: #FFFFFF;
+      border-radius:100px 100px 100px 0;
+    }
+    .eye{
+      position:absolute;
+      width: 15px;
+      height: 15px;
+      background:#191919;
+      border-radius:50%;
+      margin-top:65px;
+      margin-left:100px;
+    }
+    .rect{
+      position:absolute;
+      width: 25px;
+      height: 75px;
+      background:#191919;
+      margin-top:75px;
+      margin-left:-50px;
+      z-index: 100;
+    }
+  
+    .rect2{
+      margin-left:30px;
+    }
+    .rect4{
+      position:relative;
+      width: 25px;
+      height: 75px;
+      background:#191919;
+    }
+  </style>
+  
+</head>
+<body>
+    <div class="body">
+        <div class="rect4"></div>
+    </div>
+        <div class="wing-left"></div>
+        <div class="wing-right"></div>
+        <div class="rect rect1"></div>
+        <div class="rect rect2"></div>
+        <div class="eye"></div>
+        
+        
+</body>
+</html>
