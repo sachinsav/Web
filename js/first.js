@@ -11,5 +11,6 @@ obj = {
     add:function(a,b){return a+b},
     min: function(a,b){return a-b}
 }
-console.log(add(2,3,4))
-console.log(obj.desc,obj.add(5,3),obj.min(5,3),typeof obj)
+console.log(add(2,3,4));
+console.log(add(2,3,4));
+console.log(obj.desc,obj.add(5,3),obj.min(5,3),typeof obj);
