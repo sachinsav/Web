@@ -13,5 +13,4 @@ obj = {
 }
 console.log(add(2,3,4));
 console.log(add(2,3,4));
-var tp = "sachin";
 console.log(obj.desc,obj.add(5,3),obj.min(5,3),typeof obj);
